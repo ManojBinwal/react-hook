@@ -45,10 +45,9 @@ export default class App extends Component {
         </div>
         {/* End :For Input Value to Change Direction & Content of Tooltip */}
 
-        {/* This is Tooltip I created */}
+    
         {/* To use tooltip you have to bind component inside tooltip */}
         <Tooltip content={"Hover Over Me"} direction={this.state.direction}>
-          {/* calling button component */}
           <Button />
         </Tooltip>
       </div>
