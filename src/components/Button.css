@@ -1,0 +1,55 @@
+/* Button.css */
+
+.button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:hover {
+    background-color: #2f2f2f;
+    transform: scale(1.05);
+  }
+  
+  /* Tooltip.css */ 
+  
+  .my-tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .my-tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px ;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* .my-tooltip:hover .my-tooltiptext {
+    visibility: visible;
+    animation: fadeIn 0.3s;
+  } */
+  
+ 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  
